@@ -1,0 +1,22 @@
+let mcu1="Tonystark";
+console.log(mcu1.toLowerCase());
+let mcu2="SteveRogers";
+console.log(mcu2.toUpperCase());
+let mcu3="Avengers";
+console.log(mcu3.length);
+console.log(mcu3[3]);console.log(mcu2.charAt(3));
+let mcu4="Thor";
+console.log(mcu4.indexOf('o'));
+let mcu5="hulk";
+console.log(mcu5.substring(0,2));
+let mcu6="panther";
+console.log(mcu6.slice(1,3));
+let mcu7=" vision ";
+console.log((mcu7));
+console.log(mcu7.trim());
+const url='https//new/page%30-.com';
+console.log(url.replace('%30','new'));
+console.log(url.includes('bruce'));
+console.log(url.includes('new'))
+let phase="phase-1,phase-2,phase-3";
+console.log(phase.split('-'));
